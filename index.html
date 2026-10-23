@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-pt="Artur Paccanaro | Desenvolvedor Backend Java - Spring Boot &amp; APIs REST" data-en="Artur Paccanaro | Java Backend Developer - Spring Boot &amp; REST APIs">Artur Paccanaro | Desenvolvedor Backend Java - Spring Boot &amp; APIs REST</title>
+  <meta name="description" content="Portfólio de Artur Paccanaro, desenvolvedor backend Java júnior. APIs REST com Spring Boot, Spring Security, JWT, PostgreSQL, Docker e CI/CD." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Artur Paccanaro | Desenvolvedor Backend Java" />
+  <meta property="og:description" content="APIs REST com Spring Boot, JWT, OAuth2/OIDC, PostgreSQL, Docker e GitHub Actions." />
+  <meta name="theme-color" content="#FBF1DE" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-pt="pular para o conteúdo" data-en="skip to content">pular para o conteúdo</a>
+
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a href="#top" class="pill nav__logo">artur paccanaro</a>
+      <nav aria-label="principal">
+        <ul class="nav__links" id="menu">
+          <li><a href="#sobre" data-pt="sobre" data-en="about">sobre</a></li>
+          <li><a href="#projetos" data-pt="projetos" data-en="projects">projetos</a></li>
+          <li><a href="#destaques" data-pt="destaques" data-en="highlights">destaques</a></li>
+          <li><a href="#stack" data-pt="stack" data-en="stack">stack</a></li>
+          <li><a href="#contato" data-pt="contato" data-en="contact">contato</a></li>
+        </ul>
+      </nav>
+      <div class="nav__right">
+        <div class="lang" role="group" aria-label="idioma / language">
+          <button type="button" class="lang__btn" data-lang="pt" aria-pressed="true">pt</button>
+          <button type="button" class="lang__btn" data-lang="en" aria-pressed="false">en</button>
+        </div>
+        <a href="#contato" class="btn btn--pink btn--sm nav__cta" data-pt="fale comigo" data-en="get in touch">fale comigo</a>
+        <button type="button" class="nav__burger" aria-expanded="false" aria-controls="menu" data-pt-aria="abrir menu" data-en-aria="open menu" aria-label="abrir menu"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+  <!-- hero -->
+  <section id="top" class="hero grid-bg">
+    <div class="wrap">
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <div class="hero__pills">
+            <span class="pill" data-pt="java · spring boot · apis rest" data-en="java · spring boot · rest apis">java · spring boot · apis rest</span>
+            <span class="pill pill--pink" data-pt="são paulo · aberto a vagas" data-en="são paulo · open to work">são paulo · aberto a vagas</span>
+          </div>
+          <h1 class="hero__title"
+              data-pt="olá, sou o artur.<br>dev <span class=&quot;kw&quot;>backend</span> java"
+              data-en="hi, i'm artur.<br><span class=&quot;kw&quot;>backend</span> java dev">olá, sou o artur.<br>dev <span class="kw">backend</span> java</h1>
+          <p class="hero__lead"
+             data-pt="apis rest com spring boot, spring security e JWT. postgresql, redis, docker e CI/CD no github actions, com deploy na AWS EC2. construo backends seguros, testados e que sobem com um comando."
+             data-en="rest apis with spring boot, spring security and JWT. postgresql, redis, docker and CI/CD on github actions, deployed on AWS EC2. i build backends that are secure, tested and start with one command.">apis rest com spring boot, spring security e JWT. postgresql, redis, docker e CI/CD no github actions, com deploy na AWS EC2. construo backends seguros, testados e que sobem com um comando.</p>
+          <div class="hero__actions">
+            <a href="#projetos" class="btn btn--ink" data-pt="ver projetos →" data-en="see projects →">ver projetos →</a>
+            <a href="https://www.linkedin.com/in/artur-paccanaro-196b34359" target="_blank" rel="noopener" class="btn">linkedin</a>
+          </div>
+          <span class="sticker st-sparkle" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M50 4 C56 34 66 44 96 50 C66 56 56 66 50 96 C44 66 34 56 4 50 C34 44 44 34 50 4Z" fill="#F4D38A" stroke="#18130E" stroke-width="5" stroke-linejoin="round"/></svg></span>
+          <span class="sticker st-cloud" aria-hidden="true"><svg viewBox="0 0 120 80"><path d="M30 68 C14 68 8 56 14 46 C8 34 20 24 32 30 C36 14 60 10 70 24 C84 16 104 26 98 42 C112 46 110 68 94 68Z" fill="#FFFFFF" stroke="#18130E" stroke-width="5" stroke-linejoin="round"/></svg></span>
+        </div>
+
+        <div class="hero__photo">
+          <div class="hero__frame">
+            <img src="images/artur.jpg" alt="artur paccanaro" width="400" height="400" fetchpriority="high">
+          </div>
+          <a class="pill pill--ink hero__handle" href="https://github.com/Paccanaro18" target="_blank" rel="noopener">@Paccanaro18</a>
+          <span class="sticker st-thumb" aria-hidden="true"><svg viewBox="0 0 100 100"><path d="M22 46 H36 V88 H22 Z" fill="#FFFFFF" stroke="#18130E" stroke-width="5" stroke-linejoin="round"/><path d="M36 50 L52 14 C60 12 66 18 62 30 L58 44 H82 C90 44 92 54 86 58 C92 64 88 72 82 72 C86 78 82 86 74 86 H44 L36 82Z" fill="#488399" stroke="#18130E" stroke-width="5" stroke-linejoin="round"/></svg></span>
+          <span class="sticker st-clover" aria-hidden="true"><svg viewBox="0 0 100 100"><g fill="#EA9393" stroke="#18130E" stroke-width="5" stroke-linejoin="round"><circle cx="34" cy="34" r="20"/><circle cx="66" cy="34" r="20"/><circle cx="34" cy="66" r="20"/><circle cx="66" cy="66" r="20"/></g><circle cx="50" cy="50" r="10" fill="#FBF1DE" stroke="#18130E" stroke-width="5"/></svg></span>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="card stat"><span class="stat__n">9</span><span class="stat__l" data-pt="projetos backend no github" data-en="backend projects on github">projetos backend no github</span></div>
+        <div class="card stat"><span class="stat__n">JWT</span><span class="stat__l" data-pt="+ OAuth2/OIDC com spring security" data-en="+ OAuth2/OIDC with spring security">+ OAuth2/OIDC com spring security</span></div>
+        <div class="card stat"><span class="stat__n">CI/CD</span><span class="stat__l" data-pt="github actions + deploy na AWS EC2" data-en="github actions + AWS EC2 deploy">github actions + deploy na AWS EC2</span></div>
+        <div class="card stat"><span class="stat__n">2026</span><span class="stat__l" data-pt="hackathon zero to shipped · AWS" data-en="zero to shipped hackathon · AWS">hackathon zero to shipped · AWS</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- marquee -->
+  <div class="marquee" aria-label="stack">
+    <div class="marquee__track">
+      <div class="marquee__group">
+        <span class="marquee__item">java</span><span class="marquee__item">spring boot</span><span class="marquee__item">spring security</span><span class="marquee__item">JWT</span><span class="marquee__item">postgresql</span><span class="marquee__item">mysql</span><span class="marquee__item">redis</span><span class="marquee__item">docker</span><span class="marquee__item">github actions</span><span class="marquee__item">AWS EC2</span><span class="marquee__item">junit 5</span><span class="marquee__item">prometheus</span><span class="marquee__item">grafana</span><span class="marquee__item">rabbitmq</span>
+      </div>
+      <div class="marquee__group" aria-hidden="true">
+        <span class="marquee__item">java</span><span class="marquee__item">spring boot</span><span class="marquee__item">spring security</span><span class="marquee__item">JWT</span><span class="marquee__item">postgresql</span><span class="marquee__item">mysql</span><span class="marquee__item">redis</span><span class="marquee__item">docker</span><span class="marquee__item">github actions</span><span class="marquee__item">AWS EC2</span><span class="marquee__item">junit 5</span><span class="marquee__item">prometheus</span><span class="marquee__item">grafana</span><span class="marquee__item">rabbitmq</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- sobre -->
+  <section id="sobre" class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2 class="section-title" data-pt="sobre" data-en="about">sobre</h2>
+        <span class="pill" data-pt="help desk → backend" data-en="help desk → backend">help desk → backend</span>
+      </div>
+      <div class="about reveal">
+        <div class="card about__text">
+          <p data-pt="desenvolvedor backend java júnior, com prática em apis rest com spring boot, spring security, JWT e spring data JPA. implemento regras de negócio, integro com bancos SQL, escrevo testes com JUnit 5 e versiono tudo no git."
+             data-en="junior java backend developer with hands-on practice in rest apis using spring boot, spring security, JWT and spring data JPA. i implement business rules, integrate with SQL databases, write tests with JUnit 5 and version everything with git.">desenvolvedor backend java júnior, com prática em apis rest com spring boot, spring security, JWT e spring data JPA. implemento regras de negócio, integro com bancos SQL, escrevo testes com JUnit 5 e versiono tudo no git.</p>
+          <p data-pt="também tenho prática com docker, CI/CD no github actions e deploy na AWS EC2, e acompanho métricas com prometheus e grafana. vim do suporte a sistemas internos, então penso em quem usa o sistema, não só em quem escreve."
+             data-en="i also work with docker, CI/CD on github actions and deployment on AWS EC2, and track metrics with prometheus and grafana. i came from internal-systems support, so i think about who uses the system, not just who writes it.">também tenho prática com docker, CI/CD no github actions e deploy na AWS EC2, e acompanho métricas com prometheus e grafana. vim do suporte a sistemas internos, então penso em quem usa o sistema, não só em quem escreve.</p>
+          <p data-pt="fora do trabalho estou construindo a koda, uma plataforma que transforma repositórios do github em desafios de programação."
+             data-en="outside work i'm building koda, a platform that turns github repositories into programming challenges.">fora do trabalho estou construindo a koda, uma plataforma que transforma repositórios do github em desafios de programação.</p>
+          <div class="about__tags">
+            <span class="tag" data-pt="ADS · FMU · previsão 08/2027" data-en="systems analysis · FMU · expected 08/2027">ADS · FMU · previsão 08/2027</span>
+            <span class="tag" data-pt="inglês intermediário" data-en="intermediate english">inglês intermediário</span>
+            <span class="tag">linux · alura</span>
+            <span class="tag" data-pt="hackathon AWS 2026" data-en="AWS hackathon 2026">hackathon AWS 2026</span>
+          </div>
+        </div>
+
+        <div class="card about__path">
+          <h3 class="about__path-title" data-pt="trajetória" data-en="path">trajetória</h3>
+          <div class="step">
+            <span class="pill step__n">01</span>
+            <div><strong data-pt="help desk · zafra auto peças" data-en="help desk · zafra auto parts">help desk · zafra auto peças</strong><span class="mono" data-pt="12/2022 → 03/2026 · recebimento fiscal e e-commerce" data-en="12/2022 → 03/2026 · fiscal receiving and e-commerce">12/2022 → 03/2026 · recebimento fiscal e e-commerce</span></div>
+          </div>
+          <div class="step">
+            <span class="pill step__n">02</span>
+            <div><strong data-pt="análise e desenvolvimento de sistemas · FMU" data-en="systems analysis and development · FMU">análise e desenvolvimento de sistemas · FMU</strong><span class="mono" data-pt="2025 → 08/2027" data-en="2025 → 08/2027">2025 → 08/2027</span></div>
+          </div>
+          <div class="step">
+            <span class="pill step__n">03</span>
+            <div><strong data-pt="hackathon zero to shipped · AWS" data-en="zero to shipped hackathon · AWS">hackathon zero to shipped · AWS</strong><span class="mono" data-pt="agente de IA analisando uma API na EC2" data-en="AI agent analyzing an API on EC2">agente de IA analisando uma API na EC2</span></div>
+          </div>
+          <div class="step step--now">
+            <span class="pill step__n">04</span>
+            <div><strong data-pt="dev backend java júnior" data-en="junior java backend dev">dev backend java júnior</strong><span class="mono" data-pt="koda · fintech core · agora" data-en="koda · fintech core · now">koda · fintech core · agora</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- projetos -->
+  <section id="projetos" class="section grid-bg">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <h2 class="section-title" data-pt="projetos" data-en="projects">projetos</h2>
+          <p class="section-lead" data-pt="o que eu construo pra aprender de verdade. tudo no github." data-en="what i build to really learn. all on github.">o que eu construo pra aprender de verdade. tudo no github.</p>
+        </div>
+        <div class="filters" role="group" aria-label="filtrar projetos">
+          <button type="button" class="pill" data-filter="all" aria-pressed="true" data-pt="todos" data-en="all">todos</button>
+          <button type="button" class="pill" data-filter="spring" aria-pressed="false">spring boot</button>
+          <button type="button" class="pill" data-filter="seguranca" aria-pressed="false" data-pt="segurança" data-en="security">segurança</button>
+          <button type="button" class="pill" data-filter="mensageria" aria-pressed="false" data-pt="mensageria" data-en="messaging">mensageria</button>
+          <button type="button" class="pill" data-filter="devops" aria-pressed="false">docker/ci</button>
+        </div>
+      </div>
+
+      <div class="bento">
+        <a href="https://github.com/Paccanaro18/kodadev" target="_blank" rel="noopener" class="card project project--featured reveal" data-cat="spring seguranca">
+          <div class="project__top">
+            <span class="pill pill--pink" data-pt="em desenvolvimento" data-en="in development">em desenvolvimento</span>
+            <span class="project__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </div>
+          <div class="project__term" aria-hidden="true">
+            <span class="project__term-bar"><i></i><i></i><i></i><em>koda@ticket</em></span>
+            <code>$ koda connect github.com/usuario/meu-projeto
+✔ login com GitHub (OAuth)
+✔ análise: stack, camadas, endpoints, testes
+$ koda ticket --nivel junior
+# KODA-12 · corrigir validação no cadastro
+dicas apontam o caminho.
+a solução é você quem escreve.
+$ <span class="project__cursor"></span></code>
+          </div>
+          <h3 class="project__title" data-pt="koda: seu repositório vira desafio" data-en="koda: your repository becomes a challenge">koda: seu repositório vira desafio</h3>
+          <p class="project__desc" data-pt="plataforma educacional com IA que lê um repositório público do github e escreve tickets de nível júnior no estilo jira, baseados no seu próprio código. nunca entrega a solução: dá dicas, trilhas de estudo e acompanha o progresso." data-en="educational platform with AI that reads a public github repository and writes junior-level jira-style tickets based on your own code. it never hands over the solution: it gives hints, study paths and tracks progress.">plataforma educacional com IA que lê um repositório público do github e escreve tickets de nível júnior no estilo jira, baseados no seu próprio código. nunca entrega a solução: dá dicas, trilhas de estudo e acompanha o progresso.</p>
+          <div class="project__tags"><span class="tag">typescript</span><span class="tag">java</span><span class="tag">github oauth</span><span class="tag">IA</span></div>
+        </a>
+
+        <a href="https://github.com/Paccanaro18/fintech-core" target="_blank" rel="noopener" class="card project project--half reveal" data-cat="spring seguranca devops">
+          <div class="project__top">
+            <span class="pill pill--red" data-pt="deploy na AWS" data-en="deployed on AWS">deploy na AWS</span>
+            <span class="project__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </div>
+          <div class="project__cluster" aria-hidden="true">
+            <span class="project__cluster-label">fintech-core · api</span>
+            <span class="pill pill--ink">POST /auth/login</span><span class="pill">POST /deposito</span><span class="pill">POST /saque</span><span class="pill pill--pink">POST /transferencia</span><span class="pill pill--red">JWT</span>
+          </div>
+          <h3 class="project__title" data-pt="fintech core" data-en="fintech core">fintech core</h3>
+          <p class="project__desc" data-pt="backend financeiro com autenticação JWT, cadastro de usuários, depósitos, saques e transferências, rodando em docker na AWS EC2 com pipeline no github actions." data-en="financial backend with JWT authentication, user management, deposits, withdrawals and transfers, running on docker on AWS EC2 with a github actions pipeline.">backend financeiro com autenticação JWT, cadastro de usuários, depósitos, saques e transferências, rodando em docker na AWS EC2 com pipeline no github actions.</p>
+          <div class="project__tags"><span class="tag">spring boot</span><span class="tag">postgresql</span><span class="tag">docker</span><span class="tag">AWS EC2</span><span class="tag">github actions</span></div>
+        </a>
+
+        <a href="https://github.com/Paccanaro18/rate-limit-test" target="_blank" rel="noopener" class="card project project--half reveal" data-cat="spring devops">
+          <div class="project__top">
+            <span class="pill" data-pt="concluído" data-en="completed">concluído</span>
+            <span class="project__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </div>
+          <h3 class="project__title" data-pt="rate limiting service" data-en="rate limiting service">rate limiting service</h3>
+          <p class="project__desc" data-pt="serviço de rate limiting com algoritmo token bucket e redis: você manda um IP e ele controla quantas requisições pode fazer. métricas no prometheus e grafana." data-en="rate limiting service using the token bucket algorithm and redis: send an IP and it controls how many requests it can make. metrics on prometheus and grafana.">serviço de rate limiting com algoritmo token bucket e redis: você manda um IP e ele controla quantas requisições pode fazer. métricas no prometheus e grafana.</p>
+          <div class="project__tags"><span class="tag">java 21</span><span class="tag">redis</span><span class="tag">token bucket</span><span class="tag">prometheus</span><span class="tag">grafana</span></div>
+        </a>
+
+        <a href="https://github.com/Paccanaro18/gateway-pagamento-simulado" target="_blank" rel="noopener" class="card project project--third reveal" data-cat="spring seguranca">
+          <div class="project__top">
+            <span class="pill" data-pt="concluído" data-en="completed">concluído</span>
+            <span class="project__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </div>
+          <h3 class="project__title" data-pt="fincore: gateway simulado" data-en="fincore: simulated gateway">fincore: gateway simulado</h3>
+          <p class="project__desc" data-pt="gateway de pagamentos simulado com login sem senha via google (OAuth2/OIDC) e pagamento por QR Code." data-en="simulated payment gateway with passwordless google login (OAuth2/OIDC) and QR Code payments.">gateway de pagamentos simulado com login sem senha via google (OAuth2/OIDC) e pagamento por QR Code.</p>
+          <div class="project__tags"><span class="tag">spring boot</span><span class="tag">OAuth2/OIDC</span><span class="tag">mysql</span><span class="tag">QR Code</span></div>
+        </a>
+
+        <a href="https://github.com/Paccanaro18/Conceito-RabbitMQ" target="_blank" rel="noopener" class="card project project--third reveal" data-cat="spring mensageria">
+          <div class="project__top">
+            <span class="pill pill--pink" data-pt="mensageria" data-en="messaging">mensageria</span>
+            <span class="project__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </div>
+          <h3 class="project__title" data-pt="pagamentos com rabbitmq" data-en="payments with rabbitmq">pagamentos com rabbitmq</h3>
+          <p class="project__desc" data-pt="a API responde 202 Accepted e o pagamento é processado em segundo plano por um consumidor da fila. provedor mockado." data-en="the API answers 202 Accepted and the payment is processed in the background by a queue consumer. mocked provider.">a API responde 202 Accepted e o pagamento é processado em segundo plano por um consumidor da fila. provedor mockado.</p>
+          <div class="project__tags"><span class="tag">rabbitmq</span><span class="tag">spring boot</span><span class="tag">postgresql</span></div>
+        </a>
+
+        <a href="https://github.com/Paccanaro18/Docker-Manager" target="_blank" rel="noopener" class="card project project--third reveal" data-cat="spring devops">
+          <div class="project__top">
+            <span class="pill" data-pt="concluído" data-en="completed">concluído</span>
+            <span class="project__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+          </div>
+          <h3 class="project__title" data-pt="docker manager api" data-en="docker manager api">docker manager api</h3>
+          <p class="project__desc" data-pt="API REST para listar, iniciar, parar, remover e criar containers e imagens docker, pronta para um dashboard." data-en="REST API to list, start, stop, remove and create docker containers and images, ready for a dashboard.">API REST para listar, iniciar, parar, remover e criar containers e imagens docker, pronta para um dashboard.</p>
+          <div class="project__tags"><span class="tag">java</span><span class="tag">junit 5</span><span class="tag">github actions</span></div>
+        </a>
+      </div>
+
+      <div class="more reveal">
+        <h3 class="more__title" data-pt="mais projetos" data-en="more projects">mais projetos</h3>
+        <ul class="more__list">
+          <li><a href="https://github.com/Paccanaro18/auth.api" target="_blank" rel="noopener"><span class="pill step__n">07</span><span class="more__name" data-pt="auth api: autenticação com JWT" data-en="auth api: JWT authentication">auth api: autenticação com JWT</span><span class="more__stack">java 21 · spring security · JWT · mysql · docker</span></a></li>
+          <li><a href="https://github.com/Paccanaro18/Mapio" target="_blank" rel="noopener"><span class="pill step__n">08</span><span class="more__name" data-pt="mapio: rotas entre dois endereços no mapa" data-en="mapio: routes between two addresses on a map">mapio: rotas entre dois endereços no mapa</span><span class="more__stack">java 21 · spring boot 3 · nominatim · leaflet.js</span></a></li>
+          <li><a href="https://github.com/Paccanaro18/desafio-itau-backend" target="_blank" rel="noopener"><span class="pill step__n">09</span><span class="more__name" data-pt="desafio itaú: estatísticas de transações em memória" data-en="itaú challenge: in-memory transaction statistics">desafio itaú: estatísticas de transações em memória</span><span class="more__stack">java 17 · spring boot · api rest</span></a></li>
+          <li><a href="https://github.com/Paccanaro18/KODA" target="_blank" rel="noopener"><span class="pill step__n">10</span><span class="more__name" data-pt="koda (core): aprendizagem adaptativa determinística" data-en="koda (core): deterministic adaptive learning">koda (core): aprendizagem adaptativa determinística</span><span class="more__stack">java · decisão pedagógica auditável</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- destaques -->
+  <section id="destaques" class="section results">
+    <div class="wrap">
+      <h2 class="results__title reveal"
+          data-pt="o que eu pratico em <span class=&quot;kw&quot;>backend</span>, de ponta a ponta: segurança, dados, testes e deploy"
+          data-en="what i practice in <span class=&quot;kw&quot;>backend</span>, end to end: security, data, tests and deploy">o que eu pratico em <span class="kw">backend</span>, de ponta a ponta: segurança, dados, testes e deploy</h2>
+      <div class="results__grid">
+        <div class="card result reveal">
+          <span class="result__n">JWT</span>
+          <strong data-pt="autenticação e autorização com spring security" data-en="authentication and authorization with spring security">autenticação e autorização com spring security</strong>
+          <span class="mono">auth api · fintech core</span>
+        </div>
+        <div class="card result reveal">
+          <span class="result__n">SQL</span>
+          <strong data-pt="persistência com spring data JPA em postgresql e mysql" data-en="persistence with spring data JPA on postgresql and mysql">persistência com spring data JPA em postgresql e mysql</strong>
+          <span class="mono">JPA · docker compose</span>
+        </div>
+        <div class="card result reveal">
+          <span class="result__n">JUnit</span>
+          <strong data-pt="testes automatizados rodando no pipeline" data-en="automated tests running in the pipeline">testes automatizados rodando no pipeline</strong>
+          <span class="mono">junit 5 · github actions</span>
+        </div>
+        <div class="card result reveal">
+          <span class="result__n">EC2</span>
+          <strong data-pt="deploy na AWS com docker e métricas no grafana" data-en="AWS deploy with docker and grafana metrics">deploy na AWS com docker e métricas no grafana</strong>
+          <span class="mono">aws · prometheus · grafana</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- stack -->
+  <section id="stack" class="section grid-bg">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <h2 class="section-title">stack</h2>
+          <p class="section-lead" data-pt="o que uso no dia a dia pra construir e entregar apis." data-en="what i use day to day to build and ship apis.">o que uso no dia a dia pra construir e entregar apis.</p>
+        </div>
+      </div>
+      <div class="about reveal">
+        <div class="card about__text">
+          <h3 class="about__path-title">java &amp; spring</h3>
+          <p data-pt="orientação a objetos, collections, streams, spring boot, spring security e spring data JPA." data-en="object orientation, collections, streams, spring boot, spring security and spring data JPA.">orientação a objetos, collections, streams, spring boot, spring security e spring data JPA.</p>
+          <h3 class="about__path-title" data-pt="apis e dados" data-en="apis &amp; data">apis e dados</h3>
+          <p data-pt="apis REST, JWT, OAuth2/OIDC, SQL, postgresql, mysql e redis." data-en="REST apis, JWT, OAuth2/OIDC, SQL, postgresql, mysql and redis.">apis REST, JWT, OAuth2/OIDC, SQL, postgresql, mysql e redis.</p>
+        </div>
+        <div class="card about__path">
+          <h3 class="about__path-title" data-pt="testes e infra" data-en="tests &amp; infra">testes e infra</h3>
+          <p data-pt="JUnit 5, testes unitários, docker, git, CI/CD, github actions, AWS EC2 e linux." data-en="JUnit 5, unit tests, docker, git, CI/CD, github actions, AWS EC2 and linux.">JUnit 5, testes unitários, docker, git, CI/CD, github actions, AWS EC2 e linux.</p>
+          <h3 class="about__path-title" data-pt="observabilidade" data-en="observability">observabilidade</h3>
+          <p>prometheus &amp; grafana</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contato -->
+  <section id="contato" class="section contact">
+    <div class="wrap">
+      <div class="card contact__card reveal">
+        <h2 class="contact__title" data-pt="vamos construir uma api que não cai?" data-en="let's build an api that stays up?">vamos construir uma api que não cai?</h2>
+        <p class="contact__lead" data-pt="aberto a vagas de desenvolvedor backend java júnior." data-en="open to junior java backend developer roles.">aberto a vagas de desenvolvedor backend java júnior.</p>
+        <div class="contact__actions">
+          <a href="mailto:paccanaro18@gmail.com" class="btn btn--ink contact__email">paccanaro18@gmail.com</a>
+          <button type="button" id="copy-email" class="btn" data-email="paccanaro18@gmail.com" data-pt="copiar e-mail" data-en="copy e-mail">copiar e-mail</button>
+        </div>
+        <div class="contact__social">
+          <a href="https://github.com/Paccanaro18" target="_blank" rel="noopener" class="pill">github</a>
+          <a href="https://www.linkedin.com/in/artur-paccanaro-196b34359" target="_blank" rel="noopener" class="pill">linkedin</a>
+        </div>
+        <span id="copied" class="pill pill--ink copied" hidden role="status" data-pt="copiado." data-en="copied.">copiado.</span>
+        <span class="sticker st-smiley" aria-hidden="true"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#FBF1DE" stroke="#18130E" stroke-width="5"/><circle cx="36" cy="40" r="5" fill="#18130E"/><circle cx="64" cy="40" r="5" fill="#18130E"/><path d="M30 60 C38 74 62 74 70 60" fill="none" stroke="#18130E" stroke-width="5" stroke-linecap="round"/></svg></span>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span class="mono">© 2026 artur paccanaro</span>
+      <span class="mono" data-pt="feito à mão com html, css e js · são paulo, sp" data-en="handmade with html, css and js · são paulo, sp">feito à mão com html, css e js · são paulo, sp</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
