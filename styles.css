@@ -2,8 +2,8 @@
    paleta: pink · vermelho · creme · preto | Baloo 2 · Space Grotesk · JetBrains Mono */
 
 :root {
-  --pink: #EA9393; --red: #488399; --yellow: #F4D38A; --cream: #FBF1DE; --ink: #18130E;
-  --white: #FFFFFF; --rose: #F1BEBE; --sand: #D8D8D8;
+  --pink: #0B6E4F; --red: #488399; --yellow: #F4D38A; --cream: #FBF1DE; --ink: #18130E;
+  --white: #FFFFFF; --rose: #D3EBDF; --sand: #D8D8D8;
   --font-display: 'Baloo 2', 'Space Grotesk', system-ui, sans-serif;
   --font-body: 'Space Grotesk', system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -228,3 +228,11 @@ p { margin: 0; }
   .reveal { opacity: 1; translate: none; transition: none; }
   .btn, .project, .stat, .result { transition: none; }
 }
+
+/* texto claro sobre o verde */
+.pill--pink, .btn--pink, .step--now .step__n, .marquee__group .marquee__item:nth-child(odd) { color: var(--white); }
+.project:hover .project__arrow { color: var(--white); }
+.results__title, .contact__title, .contact__lead { color: var(--white); }
+.results__title .kw { color: var(--ink); }
+.kw { color: var(--white); }
+.results__title .kw { color: var(--ink); }
